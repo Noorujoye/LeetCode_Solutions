@@ -12,7 +12,7 @@ public class UniqueNumber {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,2,3,1,2,3,4};
+        int[] nums = {1,2,3,1,2,3,4,};
         System.out.println(singleNumber(nums));
      }
 }
