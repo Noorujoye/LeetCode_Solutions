@@ -1,0 +1,2 @@
+- ** Equilibrium Point :**
+-It is an index, which all element sum before it and after it are same
