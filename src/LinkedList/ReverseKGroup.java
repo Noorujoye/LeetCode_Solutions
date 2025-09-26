@@ -96,3 +96,68 @@ public class ReverseKGroup {
         printList(newHead);
     }
 }
+/*
+
+// class Node
+// {
+//     int data;
+//     Node next;
+//     Node(int key)
+//     {
+//         data = key;
+//         next = null;
+//     }
+// }
+
+
+class Solution {
+    public int len(Node head) {
+        int counter = 0;
+        while (head != null) {
+            counter++;
+            head = head.next;
+        }
+        return counter;
+    }
+    public Node reverseKGroup(Node head, int K) {
+
+        if (head == null || K == 1) return head;
+        int N = len(head);
+        int group = N/K; // how many complete groups
+        if (group == 0) return head;
+
+        Node prevHead= null;
+        Node currHead = head;
+        Node ansHead = null;
+
+
+
+        for (int i=0; i<group; i++)  {
+            Node prev = null;
+            Node curr = currHead;
+            Node nextNode = null;
+
+            // Rev - K G
+
+            for (int j=0; j<K; j++) {
+                nextNode = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = nextNode;
+            }
+
+            if (prevHead == null) {
+                ansHead = prev; // first groups head
+            } else {
+                prevHead.next = prev;
+            }
+
+            prevHead = currHead; //old head = new tail
+            currHead = curr;     //next groups head
+        }
+        prevHead.next = currHead; // attached leftovers
+        return ansHead;
+    }
+}
+ */
+
