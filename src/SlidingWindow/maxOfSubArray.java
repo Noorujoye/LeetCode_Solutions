@@ -16,7 +16,7 @@ class Solution {
         Deque<Integer> dq = new ArrayDeque<>();
 
 
-        // 🧩 Step 1: Process the first window (first k elements)
+        //  Step 1: Process the first window (first k elements)
         for (int i = 0; i < k; ++i) {
 
             // Remove all elements smaller than the current one (since they are useless)
@@ -29,7 +29,7 @@ class Solution {
         }
 
 
-        // 🧩 Step 2: Process the rest of the elements (from index k to n-1)
+        //  Step 2: Process the rest of the elements (from index k to n-1)
         for (int i = k; i < n; ++i) {
 
             // The element at the front of deque is the largest of the previous window
@@ -53,7 +53,7 @@ class Solution {
         }
 
 
-        // 🧩 Step 3: Add maximum element of the last window
+        //  Step 3: Add maximum element of the last window
         res.add(arr[dq.peekFirst()]);
 
         // Return the result list
@@ -61,7 +61,7 @@ class Solution {
     }
 
 
-    // 🧠 Main method for testing and understanding
+    //  Main method for testing and understanding
     public static void main(String[] args) {
 
         Solution sol = new Solution();
