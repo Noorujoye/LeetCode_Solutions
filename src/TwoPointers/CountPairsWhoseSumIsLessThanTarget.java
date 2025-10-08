@@ -11,11 +11,8 @@ public class CountPairsWhoseSumIsLessThanTarget {
         int right = arr.length-1;
 
         for (int i=0; i<arr.length; i++) {
-
-
             while (left < right) {
                 int sum = arr[left] + arr[right];
-
                 if (sum < target) {
                     count += right-left;
                     left++;
@@ -33,6 +30,5 @@ public class CountPairsWhoseSumIsLessThanTarget {
         CountPairsWhoseSumIsLessThanTarget c = new CountPairsWhoseSumIsLessThanTarget();
         int ans = c.countPairs(arr , target);
         System.out.println(ans);
-
     }
 }
