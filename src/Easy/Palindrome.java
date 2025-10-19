@@ -15,7 +15,5 @@ public class Palindrome {
         int x = 1441;
         Boolean res = palindrome(x);
         System.out.println(res);
-
-
     }
 }
