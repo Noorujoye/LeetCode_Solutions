@@ -11,7 +11,6 @@ public class ContainerWithMostWater11_greedyAlso {
 //                area = width*height;
 //                maxWater = Math.max(maxWater , area);
 //            }
-//
 //        }
 //        return maxWater;
 //    }
