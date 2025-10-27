@@ -1,4 +1,4 @@
-streak
+## streak
 
 10/05/2025 - 2,647,914 - 37 
 10/06/2025 - 2,568,797 - 39 
@@ -18,11 +18,13 @@ streak
 10/20/2025 - 2,164,169 - 52 
 10/21/2025 - 2,136,986 - 53 (PN-34)
 10/22/2025 - 2,085,783 - 54,55 (PN-32)
-10/23/2025 - 2,062,049  - 56 (PN-16)
-10/24/2025 -            - 57 (PN-11)
-10/25/2025
-10/26/2025
-
+10/23/2025 - 2,062,049 - 56 (PN-16)
+10/24/2025 -           - 57 (PN-11)
+10/25/2025 - 2,016,597 - 58 (PN-8)
+10/26/2025 - 1,995,025 - 59 (PN-30) just completed at leetcode , yet to complete it on ide and git
+10/27/2025 -           - 60 (PN-219)  just completed code on leetcode but yet to do it by myself on ide and git
+10/28/2025 - 1,995,025 - 61 (PN-3364)
+10/29/2025 -           -    (PN-)
 PN - set matrix zeroes yet to understand
 
 

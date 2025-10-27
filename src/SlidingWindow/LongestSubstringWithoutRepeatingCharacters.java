@@ -20,7 +20,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
             return maxLength;
         }
 
-        // ✅ Main method for testing
+        // Main method for testing
         public static void main(String[] args) {
             LongestSubstringWithoutRepeatingCharacters sol = new LongestSubstringWithoutRepeatingCharacters();
 
