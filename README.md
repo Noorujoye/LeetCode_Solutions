@@ -25,6 +25,9 @@
 10/27/2025 -           - 60 (PN-219)  just completed code on leetcode but yet to do it by myself on ide and git
 10/28/2025 - 1,995,025 - 61 (PN-3364)
 10/29/2025 -           -    (PN-10)
+10/30/2025 - 1,911,611 - 66 (PN-155)
+10/31/2025 - 1,911,611 - 67 (PN-1526)
+01/01/2025 - 1,911,611 - 68 (PN-1423) Maximum Points You Can Obtain from Cards
 PN - set matrix zeroes yet to understand
 
 
