@@ -27,8 +27,10 @@
 10/29/2025 -           -    (PN-10)
 10/30/2025 - 1,911,611 - 66 (PN-155)
 10/31/2025 - 1,911,611 - 67 (PN-1526)
-01/01/2025 - 1,911,611 - 68 (PN-1423) Maximum Points You Can Obtain from Cards
+11/01/2025 - 1,911,611 - 68 (PN-1423) Maximum Points You Can Obtain from Cards
+11/02/2025 - 1,911,611 - 69 (PN-1004)
+
 PN - set matrix zeroes yet to understand
 
-
+862 krna h
 
