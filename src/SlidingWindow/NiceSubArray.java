@@ -24,6 +24,5 @@ public class NiceSubArray {
         int[] arr = {1,1,2,1,1};
         NiceSubArray n = new NiceSubArray();
         System.out.println(n.numberOfSubarrays(arr , 3));
-
     }
 }
