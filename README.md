@@ -33,8 +33,9 @@
 11/04/2025 - 1,765,473 - 71 (PN-1248)
 11/05/2025 -           - 72 (PN-1358)
 11/06/2025 - 1,748,468 - 73 (PN-424)
+11/07/2025 - 1,716,315 - 74 (PN-560)
 
 PN - set matrix zeroes yet to understand
 
 862 krna h
-
+ek problem hai 930 jo easy h but usme na ek logic h double function ka wo samjhna hai liek a , a-1 like
