@@ -24,7 +24,7 @@ public class SubArrayWithKDifferentIntegers {
             }
             count += end-start+1;
         }
-        return count;t a
+        return count;
     }
 
     public static void main(String[] args) {
