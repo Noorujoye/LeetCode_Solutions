@@ -31,6 +31,5 @@ public class BinarySubArraySumEqualsK {
         System.out.println(b.binarySubArr(arr , 1));
         System.out.println(b.binarySubArr(arr1 , 2));
         System.out.println(b.binarySubArr(arr2 , 3));
-
     }
 }
