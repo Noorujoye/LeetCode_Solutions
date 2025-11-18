@@ -35,8 +35,15 @@
 11/06/2025 - 1,748,468 - 73 (PN-424)
 11/07/2025 - 1,716,315 - 74,75 (PN-560, 930)
 11/08/2025 - 1,684,956 - 76 (PN-992)
+11/09/2025 - 1,684,956 - 77 (PN-992) remains minimum window substring
+11/10/2025 - 1,654,373 - 78 (PN-70) remaining dp 
+
+gap
+
+11/18/2025 - 1,630,752 - 80 (PN-169) Majority element HashMap
+
 
 PN - set matrix zeroes yet to understand
 
 862 krna h
-ek problem hai 930 jo easy h but usme na ek logic h double function ka wo samjhna hai liek a , a-1 like
+ek problem hai 930 jo easy h but usme na ek logic h double function ka wo samjhana hai like a , a-1 like

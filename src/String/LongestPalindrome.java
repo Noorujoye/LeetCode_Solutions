@@ -5,7 +5,7 @@ public class LongestPalindrome {
             if (s.length() <= 1) return s;
 
             String LPS = "";
-
+//aba
             for (int i = 1; i < s.length(); i++) {
 
                 int low = i;
