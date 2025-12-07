@@ -36,7 +36,8 @@
 11/07/2025 - 1,716,315 - 74,75 (PN-560, 930)
 11/08/2025 - 1,684,956 - 76 (PN-992)
 11/09/2025 - 1,684,956 - 77 (PN-992) remains minimum window substring
-11/10/2025 - 1,654,373 - 78 (PN-70) remaining dp 
+11/10/2025 - 1,654,373 - 78 (PN-70) remaining dp
+12/05/2025 - 1,517,794 - 78 (PN-3432) count partition even diff / solved by myself
 
 gap
 
