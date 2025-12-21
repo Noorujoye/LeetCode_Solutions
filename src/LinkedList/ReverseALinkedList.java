@@ -3,7 +3,7 @@ import java.util.LinkedList;
 
 
 public class ReverseALinkedList {
-    public class Node {
+    public static class Node {
         private int data;
         private Node next;
 

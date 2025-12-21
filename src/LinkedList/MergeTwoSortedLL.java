@@ -1,19 +1,22 @@
 package LinkedList;
 
-class Node {
-    int data;
-    Node next;
 
-    Node(int x) {
-        data = x;
-        next = null;
-    }
-}
 
 class MergeTwoSortedLL {
+    static class  Node {
+        int data;
+        Node next;
 
-    static Node sortedMerge(Node head1,
-                            Node head2) {
+        public Node(int x) {
+            this.data = x;
+            this.next = null;
+        }
+    }
+
+    static Node head = null;
+    Node tail = null;
+
+    static Node sortedMerge(Node head1, Node head2) {
 
         // create a dummy node to simplify
         // the merging process
@@ -57,7 +60,7 @@ class MergeTwoSortedLL {
         System.out.println();
     }
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
 
         Node head1 = new Node(5);
         head1.next = new Node(10);
@@ -72,3 +75,44 @@ class MergeTwoSortedLL {
         printList(res);
     }
 }
+
+
+//brute force approach
+
+/*
+class Solution {
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        ArrayList<Integer> list = new ArrayList<>();
+
+        ListNode temp1 = list1;
+        ListNode temp2 = list2;
+
+
+        while (temp1 != null) {
+            list.add(temp1.val);
+            temp1 = temp1.next;
+
+        }
+        while (temp2 != null) {
+            list.add(temp2.val);
+            temp2 = temp2.next;
+        }
+
+        Collections.sort(list);
+        ListNode head = null;
+        ListNode tail = null;
+
+        for (int val : list) {
+            ListNode node = new ListNode(val);
+
+            if (head == null) {
+                head = tail = node;
+            } else {
+                tail.next = node;
+                tail = node;
+            }
+        }
+        return head;
+    }
+}
+ */

@@ -19,7 +19,7 @@ public class LongestRepeatingCharacterReplacement {
 
 // this condition is main because it keeps window size stable
 // it just delete previous one character only not overall its frequency
-            //if use while in place of if then it will go for whole frequency
+            //if use "while"in place of if then it will go for whole frequency
             if (changes > k) {
                 hash[s.charAt(start) - 'A']--;
                 start++;
