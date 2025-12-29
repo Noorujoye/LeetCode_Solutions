@@ -1,14 +1,15 @@
 package LinkedList;
 
-class Node {
-    int data;
-    Node next;
-    Node(int data) {
-        this.data = data;
-        this.next  = null;
+
+public class MyLinkedList {
+    class Node {
+        int data;
+        Node next;
+        Node(int data) {
+            this.data = data;
+            this.next  = null;
+        }
     }
-}
-class MyLinkedList {
 
     Node head;
     Node tail;
@@ -36,6 +37,10 @@ class MyLinkedList {
             temp = temp.next;
         }
         System.out.println("null");
+    }
+
+    public static void main(String[] args) {
+
     }
 }
 
