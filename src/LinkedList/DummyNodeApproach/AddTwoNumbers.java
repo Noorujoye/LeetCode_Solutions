@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.DummyNodeApproach;
 
 // Definition for singly-linked list
 class ListNode {
