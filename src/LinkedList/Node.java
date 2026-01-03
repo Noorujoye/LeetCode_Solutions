@@ -1,7 +1,5 @@
-package LinkedList;
 
-
-public class MyLinkedList {
+class MyLinkedList {
     class Node {
         int data;
         Node next;
