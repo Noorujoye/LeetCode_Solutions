@@ -75,7 +75,5 @@ public class Add1ToLL {
         list.printList();
         list.add(list.head);
         list.printList();
-
-
     }
 }

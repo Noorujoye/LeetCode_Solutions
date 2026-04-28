@@ -42,8 +42,6 @@ public class DetectCycle {
 
     public static Node detectCycle(Node head) {
         if (head == null || head.next == null) return null;
-
-
         Node slow = head;
         Node fast = head;
         while (fast != null && fast.next != null) {
@@ -73,3 +71,5 @@ public class DetectCycle {
         d.printList();
     }
 }
+// detect the loop
+// then search for starting point by moving slow pointer again from head , both should move with one one

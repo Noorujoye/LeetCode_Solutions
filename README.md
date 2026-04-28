@@ -48,3 +48,5 @@ PN - set matrix zeroes yet to understand
 
 862 krna h
 ek problem hai 930 jo easy h but usme na ek logic h double function ka wo samjhana hai like a , a-1 like
+
+4/01/2026 - 894, 991 - 

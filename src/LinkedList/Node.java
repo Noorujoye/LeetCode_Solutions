@@ -1,13 +1,15 @@
+package LinkedList;
 
-class MyLinkedList {
-    class Node {
-        int data;
-        Node next;
-        Node(int data) {
-            this.data = data;
-            this.next  = null;
-        }
+class Node {
+    int data;
+    Node next;
+    Node(int data) {
+        this.data = data;
+        this.next  = null;
     }
+}
+class MyLinkedList {
+
 
     Node head;
     Node tail;

@@ -17,6 +17,7 @@ public class ContainerWithMostWater11_greedyAlso {
 public  int maxArea(int[] height) {
     int maxWater = 0;
     int left = 0, right = height.length-1;
+
     while (left < right) {
         int width = right - left;
         int ht = Math.min(height[left] , height[right]);

@@ -155,7 +155,7 @@ public class Patterns {
        *********
        *********
         ********
-        ******
+         ******
          ***
           *
          */
@@ -231,5 +231,37 @@ public class Patterns {
 //        }
 
 
+        int len = 5;
+        for (int i=0; i<len; i++) {
+            // spaces
+            for (int j=0; j<len-i-1; j++) {
+                System.out.print(" ");
+            }
+            //
+            for (int k=0; k< 2*i+1; k++) {
+                System.out.print("*");
+            }
+            for (int y=0; y<len-i-1; y++) {
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        // now just reverse this logic
+        len = 3;
+        for (int i=len; i>=0; i--) {
+            //spacess
+            for (int j=0; j<len-i+1; j++) {
+                System.out.print(" ");
+            }
+            // now stqart , just replace it with no of spaces of first loop
+
+            for (int k=0; k< 2*i+1; k++) {
+                System.out.print("*");
+            }
+            for (int j=0; j<len-i+1; j++) {
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
     }
 }

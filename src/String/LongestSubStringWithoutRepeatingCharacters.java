@@ -6,7 +6,9 @@ import java.util.HashSet;
 
 public class LongestSubStringWithoutRepeatingCharacters {
     public int subString(String s) {
-        HashMap<Character,Integer> lastSeen = new HashMap<>(); // lastSeen means at which index do this current char occur lastTime
+        HashMap<Character,Integer> lastSeen = new HashMap<>();
+        // lastSeen means at which index do this current char occur lastTime
+
         int maxlenOfSubString = 0;
         int start = 0;
         int end;

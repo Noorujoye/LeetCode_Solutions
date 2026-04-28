@@ -17,7 +17,6 @@ public class LongestPalindrome {
                     if (low == -1 || high == s.length()) break;
                 }
 
-
                 String palindrome = s.substring(low + 1, high);
                 if (palindrome.length() > LPS.length()) {
                     LPS = palindrome;
